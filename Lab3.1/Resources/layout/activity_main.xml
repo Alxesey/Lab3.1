@@ -1,0 +1,48 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="Consolas"
+        android:textSize="22dp"
+        android:textColor="@android:color/black"
+        android:text="Enter specified number:"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:paddingBottom="@dimen/compat_button_inset_horizontal_material"
+        android:layout_marginTop="@dimen/abc_action_bar_stacked_max_height"
+        android:paddingTop="@dimen/abc_action_bar_elevation_material"
+        android:paddingLeft="@dimen/abc_action_bar_content_inset_material"
+        android:background="@color/material_grey_600"
+        android:textColor="@android:color/white"
+        android:id="@+id/editText2"/>
+    <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:text="Calc"
+        android:id="@+id/button1"
+        android:fontFamily="Consolas"
+        android:textSize="20dp"
+        android:layout_marginRight="200dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:fontFamily="Consolas"
+        android:textSize="22dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView1"/>
+</RelativeLayout>
